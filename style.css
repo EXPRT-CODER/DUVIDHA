@@ -1,3 +1,11 @@
+#heading {
+  position: absolute;
+  top: 10%; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  width: 100%; 
+  text-align: center; 
+}
 body {
       background-image: linear-gradient(to top right, #000000, #444F5A);
       display: flex;
@@ -74,7 +82,7 @@ body {
     }
 
     input:checked + label:after {
-      left: calc(100% - 27px); /* Adjusted for smoother movement */
+      left: calc(100% - 27px); /* for smoothing movement */
       transform: translateX(0);
     }
 

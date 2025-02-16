@@ -85,8 +85,11 @@ body {
       left: calc(100% - 27px); /* for smoothing movement */
       transform: translateX(0);
     }
-@media only screen and (min-width: 1024px) {
-  .main-containner{
-    margin-top: 70px;
+@media only screen and (width: 1024px) {
+  .main-container{
+    margin-top: 0px;
   } 
+  #heading{
+      top: 15%;
+  }
 }
